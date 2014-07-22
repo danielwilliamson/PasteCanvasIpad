@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52E51A2197E6D8000F41A81 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51A1197E6D8000F41A81 /* Parse.framework */; };
+		E52E51A4197E6DA600F41A81 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51A3197E6DA600F41A81 /* AudioToolbox.framework */; };
+		E52E51A6197E6DAE00F41A81 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51A5197E6DAE00F41A81 /* CFNetwork.framework */; };
+		E52E51A8197E6DC100F41A81 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51A7197E6DC100F41A81 /* CoreLocation.framework */; };
+		E52E51AA197E6DCD00F41A81 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51A9197E6DCD00F41A81 /* libz.dylib */; };
+		E52E51AC197E6DD700F41A81 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51AB197E6DD700F41A81 /* MobileCoreServices.framework */; };
+		E52E51AE197E6DDD00F41A81 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51AD197E6DDD00F41A81 /* QuartzCore.framework */; };
+		E52E51B0197E6DE300F41A81 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51AF197E6DE300F41A81 /* Security.framework */; };
+		E52E51B2197E6DEB00F41A81 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51B1197E6DEB00F41A81 /* StoreKit.framework */; };
+		E52E51B4197E6DFD00F41A81 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E51B3197E6DFD00F41A81 /* SystemConfiguration.framework */; };
+		E52E51B7197E70BF00F41A81 /* FBTextTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E52E51B6197E70BF00F41A81 /* FBTextTableView.m */; };
+		E52E51BA197E798800F41A81 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E52E51B9197E798800F41A81 /* MasterViewController.m */; };
+		E530AC7C1966CE8600AC42DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530AC7B1966CE8600AC42DA /* Foundation.framework */; };
+		E530AC7E1966CE8600AC42DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530AC7D1966CE8600AC42DA /* CoreGraphics.framework */; };
+		E530AC801966CE8600AC42DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530AC7F1966CE8600AC42DA /* UIKit.framework */; };
+		E530AC861966CE8600AC42DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E530AC841966CE8600AC42DA /* InfoPlist.strings */; };
+		E530AC881966CE8600AC42DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E530AC871966CE8600AC42DA /* main.m */; };
+		E530AC8C1966CE8600AC42DA /* PCIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E530AC8B1966CE8600AC42DA /* PCIAppDelegate.m */; };
+		E530AC8F1966CE8600AC42DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E530AC8D1966CE8600AC42DA /* Main.storyboard */; };
+		E530AC921966CE8600AC42DA /* PCIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E530AC911966CE8600AC42DA /* PCIViewController.m */; };
+		E530AC941966CE8600AC42DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E530AC931966CE8600AC42DA /* Images.xcassets */; };
+		E530AC9B1966CE8600AC42DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530AC9A1966CE8600AC42DA /* XCTest.framework */; };
+		E530AC9C1966CE8600AC42DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530AC7B1966CE8600AC42DA /* Foundation.framework */; };
+		E530AC9D1966CE8600AC42DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530AC7F1966CE8600AC42DA /* UIKit.framework */; };
+		E530ACA51966CE8600AC42DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E530ACA31966CE8600AC42DA /* InfoPlist.strings */; };
+		E530ACA71966CE8600AC42DA /* PasteCanvasiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E530ACA61966CE8600AC42DA /* PasteCanvasiPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E530AC9E1966CE8600AC42DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E530AC701966CE8600AC42DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E530AC771966CE8600AC42DA;
+			remoteInfo = PasteCanvasiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52E51A1197E6D8000F41A81 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E52E51A3197E6DA600F41A81 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E52E51A5197E6DAE00F41A81 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E52E51A7197E6DC100F41A81 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E52E51A9197E6DCD00F41A81 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E52E51AB197E6DD700F41A81 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E52E51AD197E6DDD00F41A81 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E52E51AF197E6DE300F41A81 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E52E51B1197E6DEB00F41A81 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E52E51B3197E6DFD00F41A81 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E52E51B5197E70BF00F41A81 /* FBTextTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTextTableView.h; sourceTree = "<group>"; };
+		E52E51B6197E70BF00F41A81 /* FBTextTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTextTableView.m; sourceTree = "<group>"; };
+		E52E51B8197E798800F41A81 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
+		E52E51B9197E798800F41A81 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
+		E530AC781966CE8600AC42DA /* PasteCanvasiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasteCanvasiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E530AC7B1966CE8600AC42DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E530AC7D1966CE8600AC42DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E530AC7F1966CE8600AC42DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E530AC831966CE8600AC42DA /* PasteCanvasiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasteCanvasiPad-Info.plist"; sourceTree = "<group>"; };
+		E530AC851966CE8600AC42DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E530AC871966CE8600AC42DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E530AC891966CE8600AC42DA /* PasteCanvasiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasteCanvasiPad-Prefix.pch"; sourceTree = "<group>"; };
+		E530AC8A1966CE8600AC42DA /* PCIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCIAppDelegate.h; sourceTree = "<group>"; };
+		E530AC8B1966CE8600AC42DA /* PCIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCIAppDelegate.m; sourceTree = "<group>"; };
+		E530AC8E1966CE8600AC42DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E530AC901966CE8600AC42DA /* PCIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCIViewController.h; sourceTree = "<group>"; };
+		E530AC911966CE8600AC42DA /* PCIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCIViewController.m; sourceTree = "<group>"; };
+		E530AC931966CE8600AC42DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E530AC991966CE8600AC42DA /* PasteCanvasiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasteCanvasiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E530AC9A1966CE8600AC42DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E530ACA21966CE8600AC42DA /* PasteCanvasiPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasteCanvasiPadTests-Info.plist"; sourceTree = "<group>"; };
+		E530ACA41966CE8600AC42DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E530ACA61966CE8600AC42DA /* PasteCanvasiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteCanvasiPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E530AC751966CE8600AC42DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E51B4197E6DFD00F41A81 /* SystemConfiguration.framework in Frameworks */,
+				E52E51B2197E6DEB00F41A81 /* StoreKit.framework in Frameworks */,
+				E52E51B0197E6DE300F41A81 /* Security.framework in Frameworks */,
+				E52E51AE197E6DDD00F41A81 /* QuartzCore.framework in Frameworks */,
+				E52E51AC197E6DD700F41A81 /* MobileCoreServices.framework in Frameworks */,
+				E52E51AA197E6DCD00F41A81 /* libz.dylib in Frameworks */,
+				E52E51A8197E6DC100F41A81 /* CoreLocation.framework in Frameworks */,
+				E530AC7E1966CE8600AC42DA /* CoreGraphics.framework in Frameworks */,
+				E52E51A6197E6DAE00F41A81 /* CFNetwork.framework in Frameworks */,
+				E52E51A4197E6DA600F41A81 /* AudioToolbox.framework in Frameworks */,
+				E530AC801966CE8600AC42DA /* UIKit.framework in Frameworks */,
+				E52E51A2197E6D8000F41A81 /* Parse.framework in Frameworks */,
+				E530AC7C1966CE8600AC42DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E530AC961966CE8600AC42DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E530AC9B1966CE8600AC42DA /* XCTest.framework in Frameworks */,
+				E530AC9D1966CE8600AC42DA /* UIKit.framework in Frameworks */,
+				E530AC9C1966CE8600AC42DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E530AC6F1966CE8600AC42DA = {
+			isa = PBXGroup;
+			children = (
+				E52E51A1197E6D8000F41A81 /* Parse.framework */,
+				E530AC811966CE8600AC42DA /* PasteCanvasiPad */,
+				E530ACA01966CE8600AC42DA /* PasteCanvasiPadTests */,
+				E530AC7A1966CE8600AC42DA /* Frameworks */,
+				E530AC791966CE8600AC42DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E530AC791966CE8600AC42DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E530AC781966CE8600AC42DA /* PasteCanvasiPad.app */,
+				E530AC991966CE8600AC42DA /* PasteCanvasiPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E530AC7A1966CE8600AC42DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E52E51B3197E6DFD00F41A81 /* SystemConfiguration.framework */,
+				E52E51B1197E6DEB00F41A81 /* StoreKit.framework */,
+				E52E51AF197E6DE300F41A81 /* Security.framework */,
+				E52E51AD197E6DDD00F41A81 /* QuartzCore.framework */,
+				E52E51AB197E6DD700F41A81 /* MobileCoreServices.framework */,
+				E52E51A9197E6DCD00F41A81 /* libz.dylib */,
+				E52E51A7197E6DC100F41A81 /* CoreLocation.framework */,
+				E52E51A5197E6DAE00F41A81 /* CFNetwork.framework */,
+				E52E51A3197E6DA600F41A81 /* AudioToolbox.framework */,
+				E530AC7B1966CE8600AC42DA /* Foundation.framework */,
+				E530AC7D1966CE8600AC42DA /* CoreGraphics.framework */,
+				E530AC7F1966CE8600AC42DA /* UIKit.framework */,
+				E530AC9A1966CE8600AC42DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E530AC811966CE8600AC42DA /* PasteCanvasiPad */ = {
+			isa = PBXGroup;
+			children = (
+				E52E51B8197E798800F41A81 /* MasterViewController.h */,
+				E52E51B9197E798800F41A81 /* MasterViewController.m */,
+				E530AC8A1966CE8600AC42DA /* PCIAppDelegate.h */,
+				E530AC8B1966CE8600AC42DA /* PCIAppDelegate.m */,
+				E530AC8D1966CE8600AC42DA /* Main.storyboard */,
+				E530AC901966CE8600AC42DA /* PCIViewController.h */,
+				E530AC911966CE8600AC42DA /* PCIViewController.m */,
+				E530AC931966CE8600AC42DA /* Images.xcassets */,
+				E530AC821966CE8600AC42DA /* Supporting Files */,
+				E52E51B5197E70BF00F41A81 /* FBTextTableView.h */,
+				E52E51B6197E70BF00F41A81 /* FBTextTableView.m */,
+			);
+			path = PasteCanvasiPad;
+			sourceTree = "<group>";
+		};
+		E530AC821966CE8600AC42DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E530AC831966CE8600AC42DA /* PasteCanvasiPad-Info.plist */,
+				E530AC841966CE8600AC42DA /* InfoPlist.strings */,
+				E530AC871966CE8600AC42DA /* main.m */,
+				E530AC891966CE8600AC42DA /* PasteCanvasiPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E530ACA01966CE8600AC42DA /* PasteCanvasiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				E530ACA61966CE8600AC42DA /* PasteCanvasiPadTests.m */,
+				E530ACA11966CE8600AC42DA /* Supporting Files */,
+			);
+			path = PasteCanvasiPadTests;
+			sourceTree = "<group>";
+		};
+		E530ACA11966CE8600AC42DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E530ACA21966CE8600AC42DA /* PasteCanvasiPadTests-Info.plist */,
+				E530ACA31966CE8600AC42DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E530AC771966CE8600AC42DA /* PasteCanvasiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E530ACAA1966CE8600AC42DA /* Build configuration list for PBXNativeTarget "PasteCanvasiPad" */;
+			buildPhases = (
+				E530AC741966CE8600AC42DA /* Sources */,
+				E530AC751966CE8600AC42DA /* Frameworks */,
+				E530AC761966CE8600AC42DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasteCanvasiPad;
+			productName = PasteCanvasiPad;
+			productReference = E530AC781966CE8600AC42DA /* PasteCanvasiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E530AC981966CE8600AC42DA /* PasteCanvasiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E530ACAD1966CE8600AC42DA /* Build configuration list for PBXNativeTarget "PasteCanvasiPadTests" */;
+			buildPhases = (
+				E530AC951966CE8600AC42DA /* Sources */,
+				E530AC961966CE8600AC42DA /* Frameworks */,
+				E530AC971966CE8600AC42DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E530AC9F1966CE8600AC42DA /* PBXTargetDependency */,
+			);
+			name = PasteCanvasiPadTests;
+			productName = PasteCanvasiPadTests;
+			productReference = E530AC991966CE8600AC42DA /* PasteCanvasiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E530AC701966CE8600AC42DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PCI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DWApps;
+				TargetAttributes = {
+					E530AC981966CE8600AC42DA = {
+						TestTargetID = E530AC771966CE8600AC42DA;
+					};
+				};
+			};
+			buildConfigurationList = E530AC731966CE8600AC42DA /* Build configuration list for PBXProject "PasteCanvasiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E530AC6F1966CE8600AC42DA;
+			productRefGroup = E530AC791966CE8600AC42DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E530AC771966CE8600AC42DA /* PasteCanvasiPad */,
+				E530AC981966CE8600AC42DA /* PasteCanvasiPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E530AC761966CE8600AC42DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E530AC941966CE8600AC42DA /* Images.xcassets in Resources */,
+				E530AC861966CE8600AC42DA /* InfoPlist.strings in Resources */,
+				E530AC8F1966CE8600AC42DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E530AC971966CE8600AC42DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E530ACA51966CE8600AC42DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E530AC741966CE8600AC42DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52E51B7197E70BF00F41A81 /* FBTextTableView.m in Sources */,
+				E530AC921966CE8600AC42DA /* PCIViewController.m in Sources */,
+				E52E51BA197E798800F41A81 /* MasterViewController.m in Sources */,
+				E530AC881966CE8600AC42DA /* main.m in Sources */,
+				E530AC8C1966CE8600AC42DA /* PCIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E530AC951966CE8600AC42DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E530ACA71966CE8600AC42DA /* PasteCanvasiPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E530AC9F1966CE8600AC42DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E530AC771966CE8600AC42DA /* PasteCanvasiPad */;
+			targetProxy = E530AC9E1966CE8600AC42DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E530AC841966CE8600AC42DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E530AC851966CE8600AC42DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E530AC8D1966CE8600AC42DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E530AC8E1966CE8600AC42DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E530ACA31966CE8600AC42DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E530ACA41966CE8600AC42DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E530ACA81966CE8600AC42DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E530ACA91966CE8600AC42DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E530ACAB1966CE8600AC42DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasteCanvasiPad/PasteCanvasiPad-Prefix.pch";
+				INFOPLIST_FILE = "PasteCanvasiPad/PasteCanvasiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E530ACAC1966CE8600AC42DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasteCanvasiPad/PasteCanvasiPad-Prefix.pch";
+				INFOPLIST_FILE = "PasteCanvasiPad/PasteCanvasiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E530ACAE1966CE8600AC42DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasteCanvasiPad.app/PasteCanvasiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasteCanvasiPad/PasteCanvasiPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PasteCanvasiPadTests/PasteCanvasiPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E530ACAF1966CE8600AC42DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasteCanvasiPad.app/PasteCanvasiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasteCanvasiPad/PasteCanvasiPad-Prefix.pch";
+				INFOPLIST_FILE = "PasteCanvasiPadTests/PasteCanvasiPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E530AC731966CE8600AC42DA /* Build configuration list for PBXProject "PasteCanvasiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E530ACA81966CE8600AC42DA /* Debug */,
+				E530ACA91966CE8600AC42DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E530ACAA1966CE8600AC42DA /* Build configuration list for PBXNativeTarget "PasteCanvasiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E530ACAB1966CE8600AC42DA /* Debug */,
+				E530ACAC1966CE8600AC42DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E530ACAD1966CE8600AC42DA /* Build configuration list for PBXNativeTarget "PasteCanvasiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E530ACAE1966CE8600AC42DA /* Debug */,
+				E530ACAF1966CE8600AC42DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E530AC701966CE8600AC42DA /* Project object */;
+}
